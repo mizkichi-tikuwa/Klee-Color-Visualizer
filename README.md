@@ -102,12 +102,13 @@ Image_Main フォルダ内の main.jpg を差し替えることで、表示す�
 ## OSC通信について
 本システムでは、PythonからMaxへOSC通信を用いて制御を行います。
 PythonとMaxは同一PC上での使用を想定しています。
+
 使用しているOSCメッセージ
-/text   : bang 　　　　　　　　　　　　　　　←Hue.txt,Value.txt設定用
+/text   : bang ←Hue.txt,Value.txt設定用
 /hsv    : H(0–360), S(0–100), V(0–100)  
-/TEMPO  : 0 / 1                         ←Watch状態に連動、音の発音制御
-/MODES  : 1 / 2 / 3                     ←SoundMode切り替え
-/delay  : 0 / 1                         ←Delay On/Off
+/TEMPO  : 0 / 1 ←Watch状態に連動、音の発音制御
+/MODES  : 1 / 2 / 3 ←SoundMode切り替え
+/delay  : 0 / 1 ←Delay On/Off
 
 ---
 
